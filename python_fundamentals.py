@@ -16,12 +16,12 @@ for score in sum_scores:
 average_score = int(total_sum/len(sum_scores))
 
 if average_score > 90:
-    print("Your Final Grade is A")
+    print("Your Average Score is: " + str(average_score) + ". " + "Your Final Grade is A.")
 elif average_score <= 89 and average_score >= 80:
-    print("Your Final Grade is B")
+    print("Your Average Score is: " + str(average_score) + ". " + "Your Final Grade is B.")
 elif average_score <= 79 and average_score >= 70:
-    print("Your Final Grade is C")
+    print("Your Average Score is: " + str(average_score) + ". " + "Your Final Grade is C.")
 elif average_score <= 69 and average_score >= 60:
-    print("Your Final Grade is D")
+    print("Your Average Score is: " + str(average_score) + ". " + "Your Final Grade is D.")
 else:
-    print("Your Final Grade is F")
+    print("Your Average Score is: " + str(average_score) + ". " + "Your Final Grade is F.")
